@@ -27,11 +27,11 @@
 
 <span style="font-weight:bold;">Testing all IPv4 addresses (port 443): </span>185.199.111.153 185.199.110.153 185.199.109.153 185.199.108.153
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2022-04-24 06:16:03        --&gt;&gt; 185.199.111.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2022-04-26 20:31:54        --&gt;&gt; 185.199.111.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
 
  Further IP addresses:   185.199.110.153 185.199.109.153 185.199.108.153
-                         2606:50c0:8001::153 2606:50c0:8003::153
-                         2606:50c0:8002::153 2606:50c0:8000::153 
+                         2606:50c0:8000::153 2606:50c0:8001::153
+                         2606:50c0:8003::153 2606:50c0:8002::153 
  rDNS (185.199.111.153): cdn-185-199-111-153.github.com.
  Service detected:       HTTP
 
@@ -108,15 +108,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>04D3D4D6A010A86CF2A7F50F363312F26382 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 BCEA9B804EDF0D4AC7DA43460A67AF7E0876AA78
-                              SHA256 2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463
+<span style="font-weight:bold;"> Serial                       </span>03AB52108A28C416353FB0BD661DED2260E0 (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 33020A6D26D7BCDC04A5A837B986D5536C94EE2E
+                              SHA256 55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>pilotage.inclusion.beta.gouv.fr </i> (CN in response to request w/o SNI: <i>*.github.com </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>pilotage.inclusion.beta.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">30 &gt;= 30 days</span> (2022-02-23 14:59 --&gt; 2022-05-24 14:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">87 &gt;= 30 days</span> (2022-04-24 15:38 --&gt; 2022-07-23 15:38)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://r3.o.lencr.org
@@ -134,15 +134,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>+111 sec from localtime
-<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          111
+<span style="font-weight:bold;"> HTTP clock skew              </span>+112 sec from localtime
+<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          112
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>GitHub.com
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>(none issued at &quot;/&quot;)
 <span style="font-weight:bold;"> Security headers             </span>Access-Control-Allow-Origin: *
-                              X-Served-By: cache-dfw18658-DFW
+                              X-Served-By: cache-dfw18680-DFW
                               Cache-Control: max-age=600
 <span style="font-weight:bold;"> Reverse Proxy banner         </span><span style="color:#8a7237;font-weight:bold;">Via</span>: <span style="color:#8a7237;">1</span>.<span style="color:#8a7237;">1</span> varnish
                               <span style="color:#8a7237;font-weight:bold;">X-Cache</span>: HIT
@@ -166,7 +166,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services
-                                           <a href="https://censys.io/ipv4?q=2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463" style="color:black;text-decoration:none;">https://censys.io/ipv4?q=2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463</a> could help you to find out
+                                           <a href="https://censys.io/ipv4?q=55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0" style="color:black;text-decoration:none;">https://censys.io/ipv4?q=55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0</a> could help you to find out
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -227,14 +227,14 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2022-04-24 06:17:36 [  95s] --&gt;&gt; 185.199.111.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2022-04-26 20:33:24 [  92s] --&gt;&gt; 185.199.111.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2022-04-24 06:17:36        --&gt;&gt; 185.199.110.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2022-04-26 20:33:24        --&gt;&gt; 185.199.110.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
 
  Further IP addresses:   185.199.111.153 185.199.109.153 185.199.108.153
-                         2606:50c0:8001::153 2606:50c0:8003::153
-                         2606:50c0:8002::153 2606:50c0:8000::153 
+                         2606:50c0:8000::153 2606:50c0:8001::153
+                         2606:50c0:8003::153 2606:50c0:8002::153 
  rDNS (185.199.110.153): cdn-185-199-110-153.github.com.
  Service detected:       HTTP
 
@@ -311,15 +311,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>04D3D4D6A010A86CF2A7F50F363312F26382 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 BCEA9B804EDF0D4AC7DA43460A67AF7E0876AA78
-                              SHA256 2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463
+<span style="font-weight:bold;"> Serial                       </span>03AB52108A28C416353FB0BD661DED2260E0 (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 33020A6D26D7BCDC04A5A837B986D5536C94EE2E
+                              SHA256 55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>pilotage.inclusion.beta.gouv.fr </i> (CN in response to request w/o SNI: <i>*.github.com </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>pilotage.inclusion.beta.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">30 &gt;= 30 days</span> (2022-02-23 14:59 --&gt; 2022-05-24 14:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">87 &gt;= 30 days</span> (2022-04-24 15:38 --&gt; 2022-07-23 15:38)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://r3.o.lencr.org
@@ -337,19 +337,19 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>+203 sec from localtime
-<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          203
+<span style="font-weight:bold;"> HTTP clock skew              </span>+201 sec from localtime
+<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          201
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>GitHub.com
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>(none issued at &quot;/&quot;)
 <span style="font-weight:bold;"> Security headers             </span>Access-Control-Allow-Origin: *
-                              X-Served-By: cache-dfw18655-DFW
+                              X-Served-By: cache-dfw18680-DFW
                               Cache-Control: max-age=600
 <span style="font-weight:bold;"> Reverse Proxy banner         </span><span style="color:#8a7237;font-weight:bold;">Via</span>: <span style="color:#8a7237;">1</span>.<span style="color:#8a7237;">1</span> varnish
                               <span style="color:#8a7237;font-weight:bold;">X-Cache</span>: HIT
-                              <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-Hits: <span style="color:#8a7237;">1</span>
+                              <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-Hits: <span style="color:#8a7237;">2</span>
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing vulnerabilities </span>
@@ -369,7 +369,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services
-                                           <a href="https://censys.io/ipv4?q=2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463" style="color:black;text-decoration:none;">https://censys.io/ipv4?q=2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463</a> could help you to find out
+                                           <a href="https://censys.io/ipv4?q=55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0" style="color:black;text-decoration:none;">https://censys.io/ipv4?q=55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0</a> could help you to find out
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -430,14 +430,14 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2022-04-24 06:19:09 [ 188s] --&gt;&gt; 185.199.110.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2022-04-26 20:34:55 [ 182s] --&gt;&gt; 185.199.110.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2022-04-24 06:19:09        --&gt;&gt; 185.199.109.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2022-04-26 20:34:55        --&gt;&gt; 185.199.109.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
 
  Further IP addresses:   185.199.111.153 185.199.110.153 185.199.108.153
-                         2606:50c0:8001::153 2606:50c0:8003::153
-                         2606:50c0:8002::153 2606:50c0:8000::153 
+                         2606:50c0:8000::153 2606:50c0:8001::153
+                         2606:50c0:8003::153 2606:50c0:8002::153 
  rDNS (185.199.109.153): cdn-185-199-109-153.github.com.
  Service detected:       HTTP
 
@@ -514,15 +514,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>04D3D4D6A010A86CF2A7F50F363312F26382 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 BCEA9B804EDF0D4AC7DA43460A67AF7E0876AA78
-                              SHA256 2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463
+<span style="font-weight:bold;"> Serial                       </span>03AB52108A28C416353FB0BD661DED2260E0 (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 33020A6D26D7BCDC04A5A837B986D5536C94EE2E
+                              SHA256 55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>pilotage.inclusion.beta.gouv.fr </i> (CN in response to request w/o SNI: <i>*.github.com </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>pilotage.inclusion.beta.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">30 &gt;= 30 days</span> (2022-02-23 14:59 --&gt; 2022-05-24 14:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">87 &gt;= 30 days</span> (2022-04-24 15:38 --&gt; 2022-07-23 15:38)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://r3.o.lencr.org
@@ -540,19 +540,19 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>+298 sec from localtime
-<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          298
+<span style="font-weight:bold;"> HTTP clock skew              </span>+292 sec from localtime
+<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          292
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>GitHub.com
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>(none issued at &quot;/&quot;)
 <span style="font-weight:bold;"> Security headers             </span>Access-Control-Allow-Origin: *
-                              X-Served-By: cache-dfw18660-DFW
+                              X-Served-By: cache-dfw18646-DFW
                               Cache-Control: max-age=600
 <span style="font-weight:bold;"> Reverse Proxy banner         </span><span style="color:#8a7237;font-weight:bold;">Via</span>: <span style="color:#8a7237;">1</span>.<span style="color:#8a7237;">1</span> varnish
                               <span style="color:#8a7237;font-weight:bold;">X-Cache</span>: HIT
-                              <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-Hits: <span style="color:#8a7237;">2</span>
+                              <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-Hits: <span style="color:#8a7237;">1</span>
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing vulnerabilities </span>
@@ -572,7 +572,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services
-                                           <a href="https://censys.io/ipv4?q=2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463" style="color:black;text-decoration:none;">https://censys.io/ipv4?q=2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463</a> could help you to find out
+                                           <a href="https://censys.io/ipv4?q=55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0" style="color:black;text-decoration:none;">https://censys.io/ipv4?q=55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0</a> could help you to find out
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -633,14 +633,14 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2022-04-24 06:20:51 [ 290s] --&gt;&gt; 185.199.109.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2022-04-26 20:36:25 [ 273s] --&gt;&gt; 185.199.109.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2022-04-24 06:20:51        --&gt;&gt; 185.199.108.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2022-04-26 20:36:26        --&gt;&gt; 185.199.108.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
 
  Further IP addresses:   185.199.111.153 185.199.110.153 185.199.109.153
-                         2606:50c0:8001::153 2606:50c0:8003::153
-                         2606:50c0:8002::153 2606:50c0:8000::153 
+                         2606:50c0:8000::153 2606:50c0:8001::153
+                         2606:50c0:8003::153 2606:50c0:8002::153 
  rDNS (185.199.108.153): cdn-185-199-108-153.github.com.
  Service detected:       HTTP
 
@@ -717,15 +717,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>04D3D4D6A010A86CF2A7F50F363312F26382 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 BCEA9B804EDF0D4AC7DA43460A67AF7E0876AA78
-                              SHA256 2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463
+<span style="font-weight:bold;"> Serial                       </span>03AB52108A28C416353FB0BD661DED2260E0 (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 33020A6D26D7BCDC04A5A837B986D5536C94EE2E
+                              SHA256 55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>pilotage.inclusion.beta.gouv.fr </i> (CN in response to request w/o SNI: <i>*.github.com </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>pilotage.inclusion.beta.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">30 &gt;= 30 days</span> (2022-02-23 14:59 --&gt; 2022-05-24 14:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">87 &gt;= 30 days</span> (2022-04-24 15:38 --&gt; 2022-07-23 15:38)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://r3.o.lencr.org
@@ -743,15 +743,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>+398 sec from localtime
-<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          398
+<span style="font-weight:bold;"> HTTP clock skew              </span>+383 sec from localtime
+<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          383
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>GitHub.com
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>(none issued at &quot;/&quot;)
 <span style="font-weight:bold;"> Security headers             </span>Access-Control-Allow-Origin: *
-                              X-Served-By: cache-dfw18620-DFW
+                              X-Served-By: cache-dfw18659-DFW
                               Cache-Control: max-age=600
 <span style="font-weight:bold;"> Reverse Proxy banner         </span><span style="color:#8a7237;font-weight:bold;">Via</span>: <span style="color:#8a7237;">1</span>.<span style="color:#8a7237;">1</span> varnish
                               <span style="color:#8a7237;font-weight:bold;">X-Cache</span>: HIT
@@ -775,7 +775,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services
-                                           <a href="https://censys.io/ipv4?q=2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463" style="color:black;text-decoration:none;">https://censys.io/ipv4?q=2136D9B869C19725671077B4D7F7C5BD03425F783EF7DDE45B3DE8F25E97C463</a> could help you to find out
+                                           <a href="https://censys.io/ipv4?q=55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0" style="color:black;text-decoration:none;">https://censys.io/ipv4?q=55A4FC981C1538979F81DFB4E39398825F6999EA51DCEDDE5BF75397135DC4D0</a> could help you to find out
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -836,7 +836,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2022-04-24 06:22:22 [ 381s] --&gt;&gt; 185.199.108.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2022-04-26 20:37:58 [ 366s] --&gt;&gt; 185.199.108.153:443 (pilotage.inclusion.beta.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
 <span style="font-weight:bold;">Done testing now all IP addresses (on port 443): </span>185.199.111.153 185.199.110.153 185.199.109.153 185.199.108.153

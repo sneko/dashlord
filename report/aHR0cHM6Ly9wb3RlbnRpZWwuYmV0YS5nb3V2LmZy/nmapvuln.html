@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.91</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln potentiel.beta.gouv.fr</pre>
-<p class="lead">Sun Apr 24 06:40:43 2022 – Sun Apr 24 06:43:30 2022<br>1 hosts scanned.
+<p class="lead">Tue Apr 26 20:56:33 2022 – Tue Apr 26 20:59:19 2022<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>87.98.180.173</td>
 <td>potentiel.beta.gouv.fr</td>
-<td>12</td>
+<td>13</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -177,22 +177,26 @@
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   Kerberos: 
-    od\xc9
-    I&gt;F.Z
-    A\x93
-    !f/~
-    ]mdzvs
-    "}yQ0
-    u{M9
+    8\x03NDd
+    ~MBO
+    eV+I
+    vJlK
+  SMBProgNeg: 
+    n0w.
+    HDHz
+    3;at
+    ?u.o
+    mD]wR
+    f!%W,
+    w2}q
+    \x10
+    dno7?r
   TLSSessionReq: 
-    m$n'
-    QN0;[
-    dA{G
-    ]RAbUT
-    F1/A\^
-    u^p*
-    )H&gt;k
-    tzb|</pre>
+    |JA08
+    VCm;|
+    TjhfJ
+    a&amp;SN|
+    ?"~b}+</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">5001</td>
@@ -276,6 +280,16 @@
   locales: en_US
 </pre>
 </td></tr>
+<tr class="success">
+<td title="Port">5998</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">tcpwrapped</td>
+<td title="Product"></td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 <tr class="success">
 <td title="Port">9999</td>
 <td title="Protocol">tcp</td>
@@ -412,6 +426,16 @@
 <td>3.7.28</td>
 <td></td>
 <td>0-9</td>
+</tr>
+<tr>
+<td>87.98.180.173 - potentiel.beta.gouv.fr</td>
+<td>5998</td>
+<td>tcp</td>
+<td>tcpwrapped</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>87.98.180.173 - potentiel.beta.gouv.fr</td>
