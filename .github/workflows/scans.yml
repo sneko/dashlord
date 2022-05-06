@@ -180,7 +180,7 @@ jobs:
         continue-on-error: true
         timeout-minutes: 10
         id: betagouv
-        uses: betagouv/dashlord-startup-action@main
+        uses: betagouv/dashlord-startup-action@add-github-repository
         with:
           id: "${{ matrix.sites.betaId }}"
           output: "scans/betagouv.json"
@@ -195,6 +195,7 @@ jobs:
           output: scans/stats.json
           minExpectedRegex: ^stat
           exactExpectedRegex: ^stats$
+
       - name: Budget page
         continue-on-error: true
         timeout-minutes: 10
@@ -204,6 +205,15 @@ jobs:
           url: ${{ steps.betagouv.outputs.budget_url }}
           output: scans/budget_page.json
           exactExpectedRegex: ^budget$
+
+      - name: Github repository
+        continue-on-error: true
+        timeout-minutes: 10
+        uses: "betagouv/check-url-action@main"
+        if: ${{ matrix.sites.tools.betagouv }}
+        with:
+          url: ${{ steps.betagouv.outputs.github_repository }}
+          output: scans/github_repository.json
 
       - name: Dependabot vulnerabilities alerts
         continue-on-error: true
