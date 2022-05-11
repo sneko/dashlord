@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 8 May 2022 01:55:28",
+	"@generated": "Wed, 11 May 2022 12:49:18",
 	"site":[ 
 		{
 			"@name": "https://api.gouv.fr",
@@ -32,7 +32,7 @@
 					"reference": "",
 					"cweid": "359",
 					"wascid": "13",
-					"sourceid": "1125"
+					"sourceid": "1124"
 				},
 				{
 					"pluginid": "90022",
@@ -58,7 +58,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "523"
+					"sourceid": "525"
 				},
 				{
 					"pluginid": "10038",
@@ -99,13 +99,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "",
@@ -113,7 +106,14 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -195,13 +195,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "X-Frame-Options",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "X-Frame-Options",
@@ -209,7 +202,14 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "X-Frame-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "X-Frame-Options",
 							"attack": "",
@@ -291,13 +291,6 @@
 							"evidence": "<script async=\"\" src=\"https://cdn.ravenjs.com/3.19.1/raven.min.js\" crossorigin=\"anonymous\"></script>"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script async=\"\" src=\"https://cdn.ravenjs.com/3.19.1/raven.min.js\" crossorigin=\"anonymous\"></script>"
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "",
@@ -305,7 +298,14 @@
 							"evidence": "<script async=\"\" src=\"https://cdn.ravenjs.com/3.19.1/raven.min.js\" crossorigin=\"anonymous\"></script>"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script async=\"\" src=\"https://cdn.ravenjs.com/3.19.1/raven.min.js\" crossorigin=\"anonymous\"></script>"
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -387,13 +387,6 @@
 							"evidence": "<script async=\"\" src=\"https://cdn.ravenjs.com/3.19.1/raven.min.js\" crossorigin=\"anonymous\"></script>"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "https://cdn.ravenjs.com/3.19.1/raven.min.js",
-							"attack": "",
-							"evidence": "<script async=\"\" src=\"https://cdn.ravenjs.com/3.19.1/raven.min.js\" crossorigin=\"anonymous\"></script>"
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "https://cdn.ravenjs.com/3.19.1/raven.min.js",
@@ -401,7 +394,14 @@
 							"evidence": "<script async=\"\" src=\"https://cdn.ravenjs.com/3.19.1/raven.min.js\" crossorigin=\"anonymous\"></script>"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "https://cdn.ravenjs.com/3.19.1/raven.min.js",
+							"attack": "",
+							"evidence": "<script async=\"\" src=\"https://cdn.ravenjs.com/3.19.1/raven.min.js\" crossorigin=\"anonymous\"></script>"
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "https://cdn.ravenjs.com/3.19.1/raven.min.js",
 							"attack": "",
@@ -475,7 +475,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "1138"
+					"sourceid": "1139"
 				},
 				{
 					"pluginid": "10063",
@@ -516,13 +516,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "",
@@ -530,7 +523,14 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -612,13 +612,6 @@
 							"evidence": "X-Powered-By: Next.js"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "X-Powered-By: Next.js"
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "",
@@ -626,7 +619,14 @@
 							"evidence": "X-Powered-By: Next.js"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "X-Powered-By: Next.js"
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -708,13 +708,6 @@
 							"evidence": "nginx/1.18.0 (Ubuntu)"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "nginx/1.18.0 (Ubuntu)"
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "",
@@ -722,7 +715,14 @@
 							"evidence": "nginx/1.18.0 (Ubuntu)"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "nginx/1.18.0 (Ubuntu)"
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -804,13 +804,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "",
@@ -818,7 +811,14 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1171,13 +1171,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "X-Content-Type-Options",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
@@ -1185,7 +1178,14 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "X-Content-Type-Options",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -1243,70 +1243,70 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "f3b6-G/iFOVbUbOd928pLAQcYJYnjY3Y"
+							"evidence": "dfb3-hk7EQ4acobuSD3NIGrEl4kpNpDI"
 						},
 						{
 							"uri": "https://api.gouv.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "f3b6-G/iFOVbUbOd928pLAQcYJYnjY3Y"
+							"evidence": "dfb3-hk7EQ4acobuSD3NIGrEl4kpNpDI"
 						},
 						{
 							"uri": "https://api.gouv.fr/apropos",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "7b5d-A3R5gOorfCqlWzY3cWy+RAUgFWM"
+							"evidence": "7b5e-plhHrX1+C9lQDoimp2hOVXwmsqU"
 						},
 						{
 							"uri": "https://api.gouv.fr/guides",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "a611-i3yuxIjF8dkQ05NznskwbG9rH6E"
-						},
-						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/_next/static/WWtBNA0daPcz-FHOCgWy7/_buildManifest"
+							"evidence": "a612-Ch3l6bGUwW2iJbMG0Mj3Ty2n+No"
 						},
 						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "c841-9qidbIK0aPzpHflFli2+JhU24Ec"
+							"evidence": "c842-NR5t2niJgmU4oG1rxIuuGyJDv88"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "e022-CCU193Bv5+AzJYKYRDUCKthWOcM"
+							"evidence": "cfa7-HaNmBhrAXONwTCBLSxRSd89lzkE"
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "cb48-DPxZcCYeI684C1N+8dcqi/pOqek"
 						},
 						{
 							"uri": "https://api.gouv.fr/parcours-client",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "4c97-7TQnVXdl63pFZtGSLu4NG1K11UE"
+							"evidence": "4c97-/AMSo9VS3/y76gTpZL+kih77wVA"
 						},
 						{
 							"uri": "https://api.gouv.fr/parcours-client?source=header",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "4c97-7TQnVXdl63pFZtGSLu4NG1K11UE"
+							"evidence": "4c97-/AMSo9VS3/y76gTpZL+kih77wVA"
 						},
 						{
 							"uri": "https://api.gouv.fr/rechercher-api",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/_next/static/WWtBNA0daPcz-FHOCgWy7/_buildManifest"
+							"evidence": "/_next/static/EkFuEjF8hdtldpOtcwrJT/_buildManifest"
 						},
 						{
 							"uri": "https://api.gouv.fr/sitemap.xml",
@@ -1318,7 +1318,7 @@
 					],
 					"count": "11",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>v\uFFFD\uFFFDo\uFFFD\\x0014\uFFFD[Q\uFFFD\uFFFD\uFFFDo),\\x0004\\x001c`\uFFFD'\uFFFD\uFFFD\uFFFD</p>",
+					"otherinfo": "<p>u\uFFFD\uFFFD\uFFFD\\x0019;\\x0011\\x000e\\x001ar\uFFFD\uFFFDH=\uFFFD j\u0117\uFFFD)6\uFFFD\uFFFD</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -1383,7 +1383,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "363"
+					"sourceid": "368"
 				},
 				{
 					"pluginid": "10027",
@@ -1424,13 +1424,6 @@
 							"evidence": "query"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query"
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "",
@@ -1438,7 +1431,14 @@
 							"evidence": "query"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query"
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1475,7 +1475,7 @@
 					],
 					"count": "11",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"apis\":[{\"title\":\"API Entreprise\",\"tagline\":\"Entit\u00E9s a\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"apis\":[{\"title\":\"API Fichier des Comptes Bancaires et\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
@@ -1520,13 +1520,6 @@
 							"evidence": "<noscript data-n-css=\"\"></noscript>"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a id=\"api-description\" class=\"jsx-3486495356 hidden-anchor\">This is a hidden anchor. It is a trick to avoid having the header hiding the top of the page.</a>"
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "",
@@ -1534,7 +1527,14 @@
 							"evidence": "<a id=\"api-description\" class=\"jsx-3486495356 hidden-anchor\">This is a hidden anchor. It is a trick to avoid having the header hiding the top of the page.</a>"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a id=\"api-description\" class=\"jsx-3486495356 hidden-anchor\">This is a hidden anchor. It is a trick to avoid having the header hiding the top of the page.</a>"
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1616,13 +1616,6 @@
 							"evidence": "s-maxage=31536000, stale-while-revalidate"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "Cache-Control",
-							"attack": "",
-							"evidence": "s-maxage=31536000, stale-while-revalidate"
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "Cache-Control",
@@ -1630,7 +1623,14 @@
 							"evidence": "s-maxage=31536000, stale-while-revalidate"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "Cache-Control",
+							"attack": "",
+							"evidence": "s-maxage=31536000, stale-while-revalidate"
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "Cache-Control",
 							"attack": "",
@@ -1712,13 +1712,6 @@
 							"evidence": "s-maxage=31536000"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/api-entreprise",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "s-maxage=31536000"
-						},
-						{
 							"uri": "https://api.gouv.fr/les-api/api-service-national",
 							"method": "GET",
 							"param": "",
@@ -1726,7 +1719,14 @@
 							"evidence": "s-maxage=31536000"
 						},
 						{
-							"uri": "https://api.gouv.fr/les-api/base-adresse-nationale",
+							"uri": "https://api.gouv.fr/les-api/api-statut-etudiant",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "s-maxage=31536000"
+						},
+						{
+							"uri": "https://api.gouv.fr/les-api/api_comptes_bancaires_ficoba",
 							"method": "GET",
 							"param": "",
 							"attack": "",
