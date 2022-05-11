@@ -10,27 +10,27 @@
     },
     {
       "type": "unknown",
-      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/agence-francaise-de-developpement_logo.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/bpi-france_logo.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/region-nouvelle-aquitaine_logo.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/agence-bio_logo.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/federation-francaise-de-football_logo.png"
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/agence-nationale-du-sport_logo.png"
     },
     {
       "type": "unknown",
       "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/ministere-de-la-cohesion-des-territoires-et-des-re_logo.svg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/agence-de-leau-loire-bretagne_logo.jpeg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/banque-des-territoires_logo.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/ministere-de-la-transition-ecologique-et-solidaire_logo.svg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/federation-francaise-de-football_logo.png"
     },
     {
       "type": "hotjar",
@@ -47,7 +47,7 @@
       "value": "1",
       "domain": "aides-territoires.beta.gouv.fr",
       "path": "/",
-      "expires": 1651978279,
+      "expires": 1652276506,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +59,10 @@
     },
     {
       "name": "_pk_id.62.6088",
-      "value": "ecba2d7dfb763e2e.1651976480.",
+      "value": "25d508797bcd0206.1652274707.",
       "domain": "aides-territoires.beta.gouv.fr",
       "path": "/",
-      "expires": 1685931680,
+      "expires": 1686229907,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -74,9 +74,9 @@
     }
   ],
   "headers": {
-    "date": "Sun, 08 May 2022 02:21:18 GMT",
+    "date": "Wed, 11 May 2022 13:11:46 GMT",
     "content-type": "text/html; charset=utf-8",
-    "x-request-id": "602841c7-53fd-4e10-87e1-faecbaa00cd5",
+    "x-request-id": "73f467a8-889d-4b15-a776-515f9f70e3e3",
     "strict-transport-security": "max-age=31536000",
     "vary": "Cookie",
     "x-content-type-options": "nosniff",
@@ -86,7 +86,7 @@
   "endpoints": [
     {
       "hostname": "aides-territoires.beta.gouv.fr",
-      "ip": "109.232.236.90",
+      "ip": "5.104.101.30",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -142,12 +142,12 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "104.16.89.20",
+      "ip": "104.16.88.20",
       "geoip": null
     },
     {
       "hostname": "aides-territoires-prod.s3.fr-par.scw.cloud",
-      "ip": "51.159.62.8",
+      "ip": "51.159.62.6",
       "geoip": {
         "city": {
           "geoname_id": 2988507,
@@ -242,7 +242,7 @@
     },
     {
       "hostname": "static.hotjar.com",
-      "ip": "108.156.211.37",
+      "ip": "52.85.151.33",
       "geoip": {
         "continent": {
           "code": "NA",
