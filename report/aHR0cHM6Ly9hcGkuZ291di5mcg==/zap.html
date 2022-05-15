@@ -127,7 +127,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 8 May 2022 01:55:27
+		Generated on Sun, 15 May 2022 02:08:09
 	</h3>
 
 	
@@ -152,7 +152,7 @@ td {
 					<div>Medium</div>
 				</td>
 				<td align="center">
-					<div>4</div>
+					<div>3</div>
 				</td>
 			</tr>
 			<tr>
@@ -214,16 +214,6 @@ td {
 				<td align="center">11</td>
 			</tr>
 			<tr>
-				<td><a href="#90003">Sub Resource Integrity Attribute Missing</a></td>
-				<td align="center" class="risk-2">Medium</td>
-				<td align="center">11</td>
-			</tr>
-			<tr>
-				<td><a href="#10017">Cross-Domain JavaScript Source File Inclusion</a></td>
-				<td align="center" class="risk-1">Low</td>
-				<td align="center">11</td>
-			</tr>
-			<tr>
 				<td><a href="#10110">Dangerous JS Functions</a></td>
 				<td align="center" class="risk-1">Low</td>
 				<td align="center">2</td>
@@ -232,6 +222,11 @@ td {
 				<td><a href="#10063">Permissions Policy Header Not Set</a></td>
 				<td align="center" class="risk-1">Low</td>
 				<td align="center">11</td>
+			</tr>
+			<tr>
+				<td><a href="#10040">Secure Pages Include Mixed Content</a></td>
+				<td align="center" class="risk-1">Low</td>
+				<td align="center">1</td>
 			</tr>
 			<tr>
 				<td><a href="#10037">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a></td>
@@ -394,7 +389,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/_next/static/chunks/main-83803dd478f5b5bc.js">https://api.gouv.fr/_next/static/chunks/main-83803dd478f5b5bc.js</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/_next/static/chunks/main-f65e66e62fc5ca80.js">https://api.gouv.fr/_next/static/chunks/main-f65e66e62fc5ca80.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -600,7 +595,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -626,7 +621,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -957,7 +952,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -983,7 +978,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1150,681 +1145,6 @@ td {
 		
 			<table class="results">
 				<tr height="24">
-					<th width="20%" class="risk-2"><a
-						id="90003"></a>
-						<div>Medium</div></th>
-					<th class="risk-2">Sub Resource Integrity Attribute Missing</th>
-				</tr>
-				<tr>
-					<td width="20%">Description</td>
-					<td width="80%">
-							<div>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content. </div>
-							
-						</td>
-				</tr>
-				<TR vAlign="top">
-					<TD colspan="2"></TD>
-				</TR>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr">https://api.gouv.fr</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/">https://api.gouv.fr/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/apropos">https://api.gouv.fr/apropos</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/guides">https://api.gouv.fr/guides</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-entreprise">https://api.gouv.fr/les-api/api-entreprise</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/parcours-client">https://api.gouv.fr/parcours-client</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/parcours-client?source=header">https://api.gouv.fr/parcours-client?source=header</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/parcours-client?source=preFooter">https://api.gouv.fr/parcours-client?source=preFooter</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/rechercher-api">https://api.gouv.fr/rechercher-api</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-				<tr>
-					<td width="20%">Instances</td>
-					<td width="80%">11</td>
-				</tr>
-				<tr>
-					<td width="20%">Solution</td>
-					<td width="80%">
-							<div>Provide a valid integrity attribute to the tag.</div>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">Reference</td>
-					<td width="80%">
-							<a href="https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity">https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</a>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">CWE Id</td>
-					<td width="80%"><a
-						href="https://cwe.mitre.org/data/definitions/345.html">345</a></td>
-				</tr>
-				<tr>
-					<td width="20%">WASC Id</td>
-					<td width="80%">15</td>
-				</tr>
-				<tr>
-					<td width="20%">Plugin Id</td>
-					<td width="80%"><a
-						href="https://www.zaproxy.org/docs/alerts/90003/">90003</a></td>
-				</tr>
-			</table>
-			<div class="spacer"></div>
-		
-			<table class="results">
-				<tr height="24">
-					<th width="20%" class="risk-1"><a
-						id="10017"></a>
-						<div>Low</div></th>
-					<th class="risk-1">Cross-Domain JavaScript Source File Inclusion</th>
-				</tr>
-				<tr>
-					<td width="20%">Description</td>
-					<td width="80%">
-							<div>The page includes one or more script files from a third-party domain.</div>
-							
-						</td>
-				</tr>
-				<TR vAlign="top">
-					<TD colspan="2"></TD>
-				</TR>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr">https://api.gouv.fr</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/">https://api.gouv.fr/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/apropos">https://api.gouv.fr/apropos</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/guides">https://api.gouv.fr/guides</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-entreprise">https://api.gouv.fr/les-api/api-entreprise</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/parcours-client">https://api.gouv.fr/parcours-client</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/parcours-client?source=header">https://api.gouv.fr/parcours-client?source=header</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/parcours-client?source=preFooter">https://api.gouv.fr/parcours-client?source=preFooter</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/rechercher-api">https://api.gouv.fr/rechercher-api</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdn.ravenjs.com/3.19.1/raven.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async=&quot;&quot; src=&quot;https://cdn.ravenjs.com/3.19.1/raven.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-				<tr>
-					<td width="20%">Instances</td>
-					<td width="80%">11</td>
-				</tr>
-				<tr>
-					<td width="20%">Solution</td>
-					<td width="80%">
-							<div>Ensure JavaScript source files are loaded from only trusted sources, and the sources can&#39;t be controlled by end users of the application.</div>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">Reference</td>
-					<td width="80%"></td>
-				</tr>
-				<tr>
-					<td width="20%">CWE Id</td>
-					<td width="80%"><a
-						href="https://cwe.mitre.org/data/definitions/829.html">829</a></td>
-				</tr>
-				<tr>
-					<td width="20%">WASC Id</td>
-					<td width="80%">15</td>
-				</tr>
-				<tr>
-					<td width="20%">Plugin Id</td>
-					<td width="80%"><a
-						href="https://www.zaproxy.org/docs/alerts/10017/">10017</a></td>
-				</tr>
-			</table>
-			<div class="spacer"></div>
-		
-			<table class="results">
-				<tr height="24">
 					<th width="20%" class="risk-1"><a
 						id="10110"></a>
 						<div>Low</div></th>
@@ -1844,7 +1164,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/_next/static/chunks/1e7177e0-3955508d350685df.js">https://api.gouv.fr/_next/static/chunks/1e7177e0-3955508d350685df.js</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/_next/static/chunks/1e7177e0-4aab08e2c14002f6.js">https://api.gouv.fr/_next/static/chunks/1e7177e0-4aab08e2c14002f6.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2079,7 +1399,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2105,7 +1425,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2282,6 +1602,91 @@ td {
 			<table class="results">
 				<tr height="24">
 					<th width="20%" class="risk-1"><a
+						id="10040"></a>
+						<div>Low</div></th>
+					<th class="risk-1">Secure Pages Include Mixed Content</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>The page includes mixed content, that is content accessed via HTTP instead of HTTPS.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://api.gouv.fr/guides/utiliser-api-eau">https://api.gouv.fr/guides/utiliser-api-eau</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">http://uhbretagne.yo.fr/carte_alarmes.html</td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					<td width="80%">1</td>
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>A page that is available over SSL/TLS must be comprised completely of content which is transmitted over SSL/TLS.</div>
+							<br />
+						
+							<div>The page must not contain any content that is transmitted over unencrypted HTTP.</div>
+							<br />
+						
+							<div> This includes content from third party sites.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/311.html">311</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">4</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10040/">10040</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-1"><a
 						id="10037"></a>
 						<div>Low</div></th>
 					<th class="risk-1">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</th>
@@ -2430,7 +1835,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2456,7 +1861,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2772,7 +2177,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2798,7 +2203,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3120,7 +2525,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3146,7 +2551,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3492,6 +2897,32 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">11132911</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://api.gouv.fr">https://api.gouv.fr</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">1353159690</td>
 					</tr>
 				
 					<tr>
@@ -4248,32 +3679,6 @@ td {
 						<td width="80%">92977848</td>
 					</tr>
 				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr">https://api.gouv.fr</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">95356054</td>
-					</tr>
-				
 				<tr>
 					<td width="20%">Instances</td>
 					<td width="80%">36</td>
@@ -4460,7 +3865,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4486,7 +3891,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4695,7 +4100,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">f3b6-G/iFOVbUbOd928pLAQcYJYnjY3Y</td>
+						<td width="80%">ee4f-LekKoM7UmKDMQ469ATvZJYXOmk0</td>
 					</tr>
 				
 					<tr>
@@ -4721,7 +4126,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">f3b6-G/iFOVbUbOd928pLAQcYJYnjY3Y</td>
+						<td width="80%">ee4f-LekKoM7UmKDMQ469ATvZJYXOmk0</td>
 					</tr>
 				
 					<tr>
@@ -4747,7 +4152,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">7b5d-A3R5gOorfCqlWzY3cWy+RAUgFWM</td>
+						<td width="80%">7e14-0MPInaxu5OLelRi0Q8mn6qf+74M</td>
 					</tr>
 				
 					<tr>
@@ -4773,7 +4178,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">a611-i3yuxIjF8dkQ05NznskwbG9rH6E</td>
+						<td width="80%">b408-q3ERLQMFopsUNMqVIwGkiAENyRs</td>
 					</tr>
 				
 					<tr>
@@ -4799,13 +4204,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">/_next/static/WWtBNA0daPcz-FHOCgWy7/_buildManifest</td>
+						<td width="80%">/_next/static/wGBHBr50Zpd3E_TDRjuWQ/_buildManifest</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4825,13 +4230,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">c841-9qidbIK0aPzpHflFli2+JhU24Ec</td>
+						<td width="80%">d0fb-LikJ2C/+p8ZgTyo4eleKXXp+0e4</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4851,7 +4256,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">e022-CCU193Bv5+AzJYKYRDUCKthWOcM</td>
+						<td width="80%">cb4a-NgmUnCtu13+ylyaCMwxicSGX7ko</td>
 					</tr>
 				
 					<tr>
@@ -4877,7 +4282,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">4c97-7TQnVXdl63pFZtGSLu4NG1K11UE</td>
+						<td width="80%">4d3b-MnuhVfpMr/1wXKaujzK7B+b/7lA</td>
 					</tr>
 				
 					<tr>
@@ -4903,7 +4308,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">4c97-7TQnVXdl63pFZtGSLu4NG1K11UE</td>
+						<td width="80%">4d3b-MnuhVfpMr/1wXKaujzK7B+b/7lA</td>
 					</tr>
 				
 					<tr>
@@ -4929,7 +4334,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">/_next/static/WWtBNA0daPcz-FHOCgWy7/_buildManifest</td>
+						<td width="80%">/_next/static/wGBHBr50Zpd3E_TDRjuWQ/_buildManifest</td>
 					</tr>
 				
 					<tr>
@@ -5353,7 +4758,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5379,7 +4784,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5683,13 +5088,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;a id=&quot;api-description&quot; class=&quot;jsx-3486495356 hidden-anchor&quot;&gt;This is a hidden anchor. It is a trick to avoid having the header hiding the top of the page.&lt;/a&gt;</td>
+						<td width="80%">&lt;a id=&quot;api-description&quot; class=&quot;jsx-892843100 hidden-anchor&quot;&gt;This is a hidden anchor. It is a trick to avoid having the header hiding the top of the page.&lt;/a&gt;</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5709,13 +5114,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;a id=&quot;api-description&quot; class=&quot;jsx-3486495356 hidden-anchor&quot;&gt;This is a hidden anchor. It is a trick to avoid having the header hiding the top of the page.&lt;/a&gt;</td>
+						<td width="80%">&lt;a id=&quot;api-description&quot; class=&quot;jsx-892843100 hidden-anchor&quot;&gt;This is a hidden anchor. It is a trick to avoid having the header hiding the top of the page.&lt;/a&gt;</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5735,7 +5140,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;a id=&quot;api-description&quot; class=&quot;jsx-3486495356 hidden-anchor&quot;&gt;This is a hidden anchor. It is a trick to avoid having the header hiding the top of the page.&lt;/a&gt;</td>
+						<td width="80%">&lt;a id=&quot;api-description&quot; class=&quot;jsx-892843100 hidden-anchor&quot;&gt;This is a hidden anchor. It is a trick to avoid having the header hiding the top of the page.&lt;/a&gt;</td>
 					</tr>
 				
 					<tr>
@@ -6024,7 +5429,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6050,7 +5455,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6366,7 +5771,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/api-service-national">https://api.gouv.fr/les-api/api-service-national</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-geo">https://api.gouv.fr/les-api/api-geo</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6392,7 +5797,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://api.gouv.fr/les-api/base-adresse-nationale">https://api.gouv.fr/les-api/base-adresse-nationale</a></td>
+						<td width="80%"><a href="https://api.gouv.fr/les-api/api-statut-etudiant-boursier">https://api.gouv.fr/les-api/api-statut-etudiant-boursier</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
