@@ -127,7 +127,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 15 May 2022 12:00:09
+		Generated on Sun, 22 May 2022 12:03:12
 	</h3>
 
 	
@@ -160,7 +160,7 @@ td {
 					<div>Low</div>
 				</td>
 				<td align="center">
-					<div>7</div>
+					<div>8</div>
 				</td>
 			</tr>
 			<tr>
@@ -237,6 +237,11 @@ td {
 				<td><a href="#10063">Permissions Policy Header Not Set</a></td>
 				<td align="center" class="risk-1">Low</td>
 				<td align="center">10</td>
+			</tr>
+			<tr>
+				<td><a href="#10096">Timestamp Disclosure - Unix</a></td>
+				<td align="center" class="risk-1">Low</td>
+				<td align="center">1</td>
 			</tr>
 			<tr>
 				<td><a href="#10021">X-Content-Type-Options Header Missing</a></td>
@@ -815,7 +820,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.rdv-insertion.fr/packs/css/application-492ba11f.css&quot; media=&quot;all&quot; data-turbolinks-track=&quot;reload&quot; /&gt;</td>
+						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.rdv-insertion.fr/packs/css/application-ae8948e0.css&quot; media=&quot;all&quot; data-turbolinks-track=&quot;reload&quot; /&gt;</td>
 					</tr>
 				
 					<tr>
@@ -893,7 +898,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.rdv-insertion.fr/packs/css/application-492ba11f.css&quot; media=&quot;all&quot; data-turbolinks-track=&quot;reload&quot; /&gt;</td>
+						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.rdv-insertion.fr/packs/css/application-ae8948e0.css&quot; media=&quot;all&quot; data-turbolinks-track=&quot;reload&quot; /&gt;</td>
 					</tr>
 				
 					<tr>
@@ -971,7 +976,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.rdv-insertion.fr/packs/css/application-492ba11f.css&quot; media=&quot;all&quot; data-turbolinks-track=&quot;reload&quot; /&gt;</td>
+						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.rdv-insertion.fr/packs/css/application-ae8948e0.css&quot; media=&quot;all&quot; data-turbolinks-track=&quot;reload&quot; /&gt;</td>
 					</tr>
 				
 					<tr>
@@ -2347,6 +2352,85 @@ td {
 			<table class="results">
 				<tr height="24">
 					<th width="20%" class="risk-1"><a
+						id="10096"></a>
+						<div>Low</div></th>
+					<th class="risk-1">Timestamp Disclosure - Unix</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>A timestamp was disclosed by the application/web server - Unix</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://rdv-insertion.fr/sitemap.xml">https://rdv-insertion.fr/sitemap.xml</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">42145894</td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					<td width="80%">1</td>
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="http://projects.webappsec.org/w/page/13246936/Information%20Leakage">http://projects.webappsec.org/w/page/13246936/Information%20Leakage</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/200.html">200</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">13</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10096/">10096</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-1"><a
 						id="10021"></a>
 						<div>Low</div></th>
 					<th class="risk-1">X-Content-Type-Options Header Missing</th>
@@ -2470,7 +2554,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">PCaTSIVqKXjjl0TI5DifEraubnOtMFV4BndY</td>
+						<td width="80%">2FG5y4xo817iWyBmRAEUHM1yzhPdDMBp</td>
 					</tr>
 				
 					<tr>
@@ -2496,7 +2580,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2FhsAJQ1M5MZk0i5jNPzZQKSve2U5CFRh7m6LI3fxFZDmXxEvd66tT7</td>
+						<td width="80%">2FN4iKtttbwJwuAfJ4OsVI7UzsDFFG0atgFtgH</td>
 					</tr>
 				
 					<tr>
@@ -2522,7 +2606,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2FkJYXZUYiuBRcXpf9tjUriOH0StW4GWQamtuNKkhPGoerU</td>
+						<td width="80%">2F3l9c5swY5sbES83SDWARXVuM1STIvBbLnOVBMtSBL9CRUkpugAGFEaks53</td>
 					</tr>
 				
 					<tr>
@@ -2548,7 +2632,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2FKkb0oH5dA6MSVf6b46Gzlg4ZDEXaW</td>
+						<td width="80%">kXztkJwJBL9w0W2uZCakhXVLTs56Wn5GC3KYtGGDSshZ</td>
 					</tr>
 				
 					<tr>
@@ -2574,7 +2658,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">e2PngOGVI9bbFvHoNqxKYtOLNqzU3G7N</td>
+						<td width="80%">2Fdk3JvW8Jzx6WOCdBwVuhFayPgSq0aOvfwswQM9</td>
 					</tr>
 				
 					<tr>
@@ -2600,7 +2684,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">iKZcGizEzOtRZc5awODiGIvEe1W43k2LQdFLacEZc64JyXykCIPlMAoMhPFSlma4ue5yhO3NLfd+Pi+L+ocLUA==</td>
+						<td width="80%">eO9+uXmpzi5Mm5Tk/ZrYNrJF6wE1ThYAolNmVG1QsS6BLWK6MQ4DvnN0SLuGzLCJRpJmyQ5hLWcBrXsUDBqmGw==</td>
 					</tr>
 				
 					<tr>
@@ -2626,7 +2710,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">LM6ZGSxAZpowUh0Cf0WnQDJUBCWRp8mg</td>
+						<td width="80%">AE9AXScb4JgEs1i6C0sQ0UUEN4PQLP</td>
 					</tr>
 				
 					<tr>
@@ -2652,7 +2736,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2BYXJ2Oo--ptKuRagWOb30by9pEy8YvQ</td>
+						<td width="80%">2Bs849ykZyw8hM8FeF06haANtoIiYbZcxwHHTyxIh48ryxQ5Irbm8SzpOynIzc14wEPfywaDAd0g4iOmewqn0wUivqvtiWLg641O2vqgSUylGn4zMv8zvfLsuFSWRrQgw6WLo3xKdMqB</td>
 					</tr>
 				
 					<tr>
@@ -2678,7 +2762,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2B43lFs1AYjnMfEmJsxL0543FfkGTC5LaKHpYD5Y0JA8v66m2mISjmG</td>
+						<td width="80%">2B6Q8rROoskGJfn277gnR1mi5tkCWlRwIupr7Kknr0A27MgTbMVyXyUxTqHimgWVdC</td>
 					</tr>
 				
 					<tr>
@@ -2704,7 +2788,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2FhIL6q25rEgSzp6On0DU9Y6rVZmkW4znxs</td>
+						<td width="80%">2FG1zZCWMCFZ1xNm6MjlEDDPvGCjc2EeGLDtzO5RwwD8Rito</td>
 					</tr>
 				
 					<tr>
@@ -2730,7 +2814,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">NOxPtLFUKdnzRrpuiW9XuS1J0hE1c9xJ21AYp66EYme1g28KlRMAAqgv8MUbGdMZH2PbwGBgvDXkv3xFlRoamQ==</td>
+						<td width="80%">IixaglUy6VVbYNSobMKfTZGWcxNHeUau4CTyCQ22D6Xb7kaBHZUkxWSPCPcXlPfyZUH+23xWfclD2u9JbPwYkA==</td>
 					</tr>
 				
 				<tr>
